@@ -13,10 +13,7 @@ h1 {
 h2 {
     font-size: 40px;
     font-weight: 200;
-    text-align: left;
-    margin-top: 50px;
-    line-height: 50%;
-    margin-bottom: 20px;
+    text-align: center;
 }
 p {
     font-size: 20px;

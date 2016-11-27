@@ -1,7 +1,29 @@
 body {
-    margin: 60px auto;
-    width: 70%;
-    font-family: 'Roboto', sans-serif;
+    font-family: Calibri;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: #c00;
+    width: 100%;
+    color: white;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 200;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 nav ul, footer ul {
     padding: 0px;
@@ -18,20 +40,6 @@ a {
 }
 a:hover {
     text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    text-align: left;
-}
-h2 {
-    font-size: 2em;
-    text-align: left;
-    line-height: 60%; 
-}
-p {
-    font-size: 18px;
-    color: #333;
-    text-align: center;
 }
 footer {
     border-top: 1px solid #d5d5d5;

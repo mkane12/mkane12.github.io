@@ -52,3 +52,11 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+/* site border */
+.site {
+    border: 12px solid #000000;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

@@ -15,7 +15,7 @@ AirBnBNodeMap = function(_parentElement, _boroughMap, _neighborhoodMap, _airbnbD
     this.sel_bor = "All";
 
     // create list of dates for which we have data
-    this.dates = [x];
+    // this.dates = [x];
 
     this.initVis();
 };

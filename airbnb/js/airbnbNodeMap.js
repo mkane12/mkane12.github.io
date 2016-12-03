@@ -29,20 +29,20 @@ AirBnBNodeMap.prototype.initVis = function() {
     var vis = this;
 
     // Add a slider to the page using the minimum and maximum years appearing in the data
-    vis.slider = document.getElementById('slider');
+//     vis.slider = document.getElementById('slider');
 
-    vis.slidermin = 2014;
-    vis.slidermax = 2016;
-    noUiSlider.create(vis.slider, {
-        start: vis.slidermin,
-        connect: true,
-        step: 1,
-        range: {
-            'min': vis.slidermin,
-            'max': vis.slidermax
-        }
+//     vis.slidermin = 2014;
+//     vis.slidermax = 2016;
+//     noUiSlider.create(vis.slider, {
+//         start: vis.slidermin,
+//         connect: true,
+//         step: 1,
+//         range: {
+//             'min': vis.slidermin,
+//             'max': vis.slidermax
+//         }
 
-    });
+//     });
 
     vis.width = 1000;
     vis.height = 600;
